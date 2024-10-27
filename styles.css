@@ -1,0 +1,40 @@
+.turn {
+    text-align: center;
+    margin: 40px auto -10px auto;
+}
+
+.board {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    height: 300px;
+    width: 300px;
+    margin: 30px auto;
+    border: 5px solid black;
+}
+
+.cell {
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+    font-size: 24pt;
+    /* background-color: rgb(166, 233, 253); */
+    border: 1px solid black;
+}
+
+.playerOne {
+    color: blue;
+}
+
+.playerTwo {
+    color: red;
+}
+
+.input-field, .start-div, .reset-div {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.start-div {
+    margin: 30px auto;
+}
